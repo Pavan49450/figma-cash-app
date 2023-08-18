@@ -1,0 +1,67 @@
+.Footer {
+  position: fixed;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  color: white;
+  max-width: 1264px;
+  height: 65px;
+  top: 640px;
+  /* align-items: flex-end; */
+  justify-content: space-between;
+  margin: auto;
+  /* margin: 0px 25px; */
+}
+
+.Footer__appleIcon,
+.Footer__googleIcon {
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  width: 133px;
+  height: 50px;
+  padding: 0px 20px;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: black;
+  margin-right: 20px;
+  /* padding: 25px; */
+}
+.Footer__appleIcon img,
+.Footer__googleIcon img {
+  width: 19.454795837402344px;
+  height: 21.223756790161133px;
+}
+
+.Footer__policyText {
+  font-size: 10px;
+  width: 52%;
+  color: #b6b6b6;
+}
+
+.Footer__left {
+  display: inline-flex;
+  justify-content: flex-end;
+  /* justify-content: space-around; */
+  align-items: center;
+  width: 50%;
+}
+
+.Footer__right {
+  display: inline-flex;
+
+  width: 50%;
+}
+
+.socialIcons {
+  display: inline-flex;
+  /* gap: 10px; */
+  justify-content: space-around;
+  width: 25%;
+}
+
+.Footer__vector {
+  /* height: 65px; */
+}

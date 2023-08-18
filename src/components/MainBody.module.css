@@ -1,0 +1,74 @@
+.MainBody {
+  position: absolute;
+  z-index: 2;
+  max-width: 1366px;
+  height: 725px;
+}
+
+.MainBody__cube {
+  position: absolute;
+  top: 8%;
+  left: 12%;
+}
+.MainBody__stairs {
+  position: absolute;
+  top: 8%;
+  right: 12%;
+}
+.MainBody__cubes {
+  position: absolute;
+  bottom: 10%;
+  left: 12%;
+}
+.MainBody__pillar {
+  position: absolute;
+  bottom: 0px;
+  right: 10%;
+}
+
+.MainBody__phone {
+  position: absolute;
+  top: -17%;
+  z-index: 4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.MainBody__titleSection {
+  width: 100%;
+  position: absolute;
+  /* z-index: 2; */
+  display: flex;
+  flex-direction: column;
+  height: 302px;
+  top: 30%;
+}
+
+.MainBody__titleSection1,
+.MainBody__titleSection2 {
+  color: white;
+  font-weight: 800;
+  margin: 0px;
+  font-size: 150px;
+  text-align: center;
+  height: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainBody__titleSection1 {
+  position: relative;
+  z-index: 3;
+}
+.MainBody__titleSection2 {
+  position: relative;
+  z-index: 5;
+}
+
+.MainBody__vector {
+  position: absolute;
+  z-index: 4;
+  bottom: 10%;
+  left: 50%;
+}

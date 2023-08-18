@@ -1,0 +1,14 @@
+.CoverPage {
+  max-width: 1366px;
+  height: 725px;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.backgroundImage {
+  max-width: 1366px;
+  height: 725px;
+  position: absolute;
+  top: 0px;
+}

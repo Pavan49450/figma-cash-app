@@ -1,0 +1,31 @@
+.Header {
+  display: flex;
+  max-width: 1264px;
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+  justify-content: space-between;
+}
+
+.Header__menuBar {
+  list-style: none;
+  display: flex;
+}
+.Header__menuBar a {
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+
+.Header__logo {
+  /* margin-left: 60px; */
+  margin-top: 10px;
+}
+
+.Header__eyeImage {
+  /* margin-right: 60px; */
+  margin-top: 10px;
+}
