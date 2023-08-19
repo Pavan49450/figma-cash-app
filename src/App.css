@@ -1,8 +1,8 @@
 .App {
-  min-width: 100%;
-  height: 721px;
+  width: 100%;
+  /* height: 721px; */
   margin: auto;
   /* border: ; */
-  /* background-color: black; */
+  background-color: black;
   /* height: 100vw; */
 }

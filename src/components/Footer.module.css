@@ -1,5 +1,5 @@
 .Footer {
-  position: fixed;
+  position: absolute;
   z-index: 4;
   display: flex;
   align-items: center;
@@ -10,7 +10,7 @@
   /* align-items: flex-end; */
   justify-content: space-between;
   margin: auto;
-  /* margin: 0px 25px; */
+  margin: 0px 25px;
 }
 
 .Footer__appleIcon,
@@ -37,7 +37,7 @@
 
 .Footer__policyText {
   font-size: 10px;
-  width: 52%;
+  width: 50%;
   color: #b6b6b6;
 }
 
@@ -47,6 +47,7 @@
   /* justify-content: space-around; */
   align-items: center;
   width: 50%;
+  gap: 20px;
 }
 
 .Footer__right {
@@ -54,14 +55,64 @@
 
   width: 50%;
 }
+.Footer__right h3 {
+  font-size: 12px;
+}
 
 .socialIcons {
   display: inline-flex;
-  /* gap: 10px; */
+  gap: 10px;
   justify-content: space-around;
   width: 25%;
 }
-
+.socialIcons img {
+  width: 24px;
+  height: 24px;
+}
 .Footer__vector {
   /* height: 65px; */
+}
+
+@media screen and (max-width: 700px) {
+  .Footer {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    top: 584px;
+    align-items: center;
+    /* display: grid; */
+    margin: 0px;
+  }
+  .Footer__left {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .Footer__right {
+    width: 100%;
+    justify-content: center;
+  }
+  .Footer__googleIcon,
+  .Footer__appleIcon {
+    /* margin: 5px; */
+    gap: 5px;
+    padding: 0px 0px;
+    justify-content: center;
+  }
+  .Footer__right {
+  }
+  .Footer__policyText {
+    margin: 10px;
+    width: 80%;
+  }
+
+  .socialIcons {
+    gap: 10px;
+    justify-content: space-around;
+    width: 10%;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+  }
 }

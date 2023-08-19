@@ -1,14 +1,23 @@
 .CoverPage {
   max-width: 1366px;
   height: 725px;
-  display: flex;
   background-color: black;
+  /* background-size: "cover"; */
+  /* background-position: "center"; */
+  display: flex;
   justify-content: center;
+  margin: auto;
 }
 
-.backgroundImage {
-  max-width: 1366px;
-  height: 725px;
-  position: absolute;
-  top: 0px;
+.background {
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/Vector.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.backgroundImage img {
+  width: 100%;
 }

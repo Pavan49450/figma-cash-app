@@ -5,8 +5,16 @@ import vector from "../assets/Vector.svg";
 import frame from "../assets/Frame.svg";
 import twitterIcon from "../assets/twitter.svg";
 import instaIcon from "../assets/insta.png";
+import { useState, useEffect } from "react";
 
 const Footer = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const breakpoint = 700;
+  useEffect(() => {
+    window.addEventListener("resize", () => setWidth(window.innerWidth));
+    console.log(width);
+  }, []);
+
   return (
     <div className={style.Footer}>
       <div className={style.Footer__right}>
@@ -19,9 +27,11 @@ const Footer = () => {
           <h4>GOOGLE PLAY</h4>
         </div>
       </div>
-      <div className={style.Footer__vector}>
-        <img src={vector} alt="vector.svg"></img>
-      </div>
+      {width > breakpoint && (
+        <div className={style.Footer__vector}>
+          <img src={vector} alt="vector.svg"></img>
+        </div>
+      )}
       <div className={style.Footer__left}>
         <div className={style.Footer__policyText}>
           Brokerage services by Cash App Investing LLC, member FINRA / SIPC. See

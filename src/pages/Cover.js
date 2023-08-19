@@ -3,13 +3,22 @@ import style from "./Cover.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import MainBody from "../components/MainBody";
+import Backlay from "../components/Backlay";
+import { useState } from "react";
 const Cover = () => {
+  const [showBacklay, setShowBacklay] = useState(false);
+  const backlayHandler = (hide) => {
+    console.log(hide);
+    setShowBacklay(!hide);
+  };
   return (
     <div className={style.CoverPage}>
-      <img src={vector} alt="vector" className={style.backgroundImage}></img>
-      <Header />
-      <MainBody />
-      <Footer />
+      <div className={style.background}>
+        <Header backlay={backlayHandler} />
+        <MainBody />
+        <Footer />
+        {showBacklay && <Backlay />}
+      </div>
     </div>
   );
 };

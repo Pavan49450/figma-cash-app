@@ -11,24 +11,29 @@ const MainBody = () => {
   return (
     <div className={style.MainBody}>
       <div className={style.MainBody__titleSection}>
-        <h1
-          className={style.MainBody__titleSection1}
-          style={{ fontFamily: "customFontGH" }}
-        >
-          CASH
-        </h1>
-        <h1
-          className={style.MainBody__titleSection2}
-          style={{ fontFamily: "customFontGH" }}
-        >
-          APP
-        </h1>
+        <div className={style.MainBody__title}>
+          <h1
+            className={style.MainBody__titleSection1}
+            style={{ fontFamily: "customFontGH" }}
+          >
+            CASH
+          </h1>
+          <h1
+            className={style.MainBody__titleSection2}
+            style={{ fontFamily: "customFontGH" }}
+          >
+            APP
+          </h1>
+        </div>
+
         <div className={style.MainBody__phone}>
           <img src={introPhone} alt=""></img>
         </div>
       </div>
+      {/* <div style={{ display: "flex" }}> */}
       <img src={introCube} alt="" className={style.MainBody__cube}></img>
       <img src={introStairs} alt="" className={style.MainBody__stairs}></img>
+      {/* </div> */}
       <img src={introCubes} alt="" className={style.MainBody__cubes}></img>
       <img src={introPillar} alt="" className={style.MainBody__pillar}></img>
       {/* <img
