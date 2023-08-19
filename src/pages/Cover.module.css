@@ -1,4 +1,8 @@
-.CoverPage {
+.coverSection,
+.bankingSection,
+.investingSection,
+.cashCardSection,
+.paymentsSection {
   max-width: 1366px;
   height: 725px;
   background-color: black;
@@ -7,17 +11,19 @@
   display: flex;
   justify-content: center;
   margin: auto;
+  overflow: hidden;
 }
 
 .background {
-  display: flex;
   justify-content: center;
+  display: flex;
   background-image: url(../assets/Vector.png);
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 
-.backgroundImage img {
-  width: 100%;
-}
+/* .backgroundImage {
+  width: 1366px;
+  height: 725px;
+} */

@@ -7,7 +7,7 @@ import twitterIcon from "../assets/twitter.svg";
 import instaIcon from "../assets/insta.png";
 import { useState, useEffect } from "react";
 
-const Footer = () => {
+const Footer = (props) => {
   const [width, setWidth] = useState(window.innerWidth);
   const breakpoint = 700;
   useEffect(() => {
@@ -16,7 +16,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className={style.Footer}>
+    <div className={style.Footer} style={props.style}>
       <div className={style.Footer__right}>
         <div className={style.Footer__appleIcon}>
           <img src={appleIcon} alt="apple icon"></img>

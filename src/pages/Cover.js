@@ -12,11 +12,12 @@ const Cover = () => {
     setShowBacklay(!hide);
   };
   return (
-    <div className={style.CoverPage}>
+    <div className={style.coverSection}>
       <div className={style.background}>
         <Header backlay={backlayHandler} />
         <MainBody />
         <Footer />
+        {/* <img src={vector} className={style.backgroundImage}></img> */}
         {showBacklay && <Backlay />}
       </div>
     </div>

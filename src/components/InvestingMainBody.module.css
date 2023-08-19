@@ -1,0 +1,11 @@
+.InvestingMainBody {
+  max-width: 1366px;
+  height: 725px;
+  overflow: hidden;
+}
+
+.InvestingMainBody__floor {
+  position: relative;
+  background: white;
+  top: 60%;
+}
