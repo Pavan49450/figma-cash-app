@@ -1,114 +1,53 @@
-.MainBody {
-  position: absolute;
-  z-index: 2;
-  max-width: 1366px;
+.CashCardMainBody {
+  overflow: hidden;
   width: 100%;
-  height: 725px;
 }
 
-.MainBody__cube {
-  position: absolute;
-  top: 8%;
-  left: 10%;
-}
-.MainBody__stairs {
-  position: absolute;
-  top: 8%;
-  right: 10%;
-}
-.MainBody__cubes {
-  position: absolute;
-  bottom: 10%;
-  left: 10%;
-}
-.MainBody__pillar {
-  position: absolute;
-  bottom: 0px;
-  right: 10%;
-}
-
-.MainBody__phone {
-  position: absolute;
-  left: 0px;
-  top: 25%;
-  z-index: 4;
+.CashCardMainBody__content {
   width: 100%;
   display: flex;
-  justify-content: center;
-}
-.MainBody__titleSection {
-  width: 100%;
-  position: absolute;
-  /* z-index: 2; */
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  /* top: 30%; */
-  justify-content: center;
-  align-items: center;
-}
-
-.MainBody__titleSection1,
-.MainBody__titleSection2 {
-  color: white;
-  font-weight: 800;
-  margin: 0px;
-  font-size: 150px;
-  text-align: center;
-  height: 50%;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
-}
-
-.MainBody__titleSection1 {
   position: relative;
+  /* position: relative;
+  z-index: 3; */
+}
+
+.CashCardMainBody__content_image {
+  /* width: 462px; */
+  position: absolute;
+  overflow: hidden;
   z-index: 3;
+  top: 90px;
+  right: 40%;
 }
-.MainBody__titleSection2 {
+.CashCardMainBody__content_data {
+  width: 300px;
   position: relative;
-  z-index: 5;
+  top: 145px;
+  right: 25%;
+}
+.CashCardMainBody__content_data h1 {
+  color: #00d54b;
+  font-family: CustomFontGH;
+}
+.CashCardMainBody__content_data p {
+  font-family: CustomFontR;
+  font-size: 14px;
+  color: white;
 }
 
-.MainBody__vector {
-  position: absolute;
-  z-index: 4;
-  bottom: 10%;
-  left: 50%;
+.CashCardMainBody__staris_1 {
 }
-
-.MainBody__title {
-  height: 302px;
-  display: flex;
-  flex-direction: column;
+.CashCardMainBody__stairs_2 {
 }
-
-@media screen and (max-width: 850px) {
-  .MainBody__titleSection1,
-  .MainBody__titleSection2 {
-    font-size: 75px;
-  }
-  .MainBody__phone {
-    top: 37%;
-  }
-  .MainBody__phone img {
-    width: 185px;
-    height: 227px;
-  }
-  .MainBody__title {
-    height: 140px;
-  }
-  .MainBody__stairs {
-    top: 5%;
-    right: 0%;
-  }
-  .MainBody__pillar {
-    right: 0%;
-  }
-  /* .MainBody__cube {
-    left: 0%;
-  } */
-  .MainBody__cubes {
-    left: 5%;
-  }
+.CashCardMainBody__hand {
+}
+.CashCardMainBody__coffee {
+}
+.CashCardMainBody__shoe {
+}
+.CashCardMainBody__burger {
+}
+.CashCardMainBody__card {
 }

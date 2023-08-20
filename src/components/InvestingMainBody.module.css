@@ -144,6 +144,6 @@
   .InvestingMainBody__ContentSection__investingMethods {
     flex-direction: column;
   }
-  .InvestingMainBody__ContentSection__bitcoin_image {
-  }
+  /* .InvestingMainBody__ContentSection__bitcoin_image {
+  } */
 }
