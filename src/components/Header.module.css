@@ -30,6 +30,7 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   overflow-wrap: break-word;
+  cursor: pointer;
 }
 
 .Header__logo {

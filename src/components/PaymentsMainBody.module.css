@@ -1,3 +1,152 @@
+@import url(../fonts/fonts.css);
+
 .paymentsMainBody {
   overflow: hidden;
+  width: 100%;
+}
+
+.paymentsMainBody__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* position: relative;
+  z-index: 3; */
+}
+
+.paymentsMainBody__content_image {
+  width: 462px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 3;
+  top: 90px;
+  right: 40%;
+}
+.paymentsMainBody__content_data {
+  width: 300px;
+  position: relative;
+  top: 145px;
+  right: 25%;
+}
+.paymentsMainBody__content_data h1 {
+  color: #00d54b;
+  font-family: CustomFontGH;
+}
+.paymentsMainBody__content_data p {
+  font-family: CustomFontR;
+  font-size: 14px;
+}
+
+.paymentsMainBody__floor {
+  position: absolute;
+  z-index: 2;
+  top: 1100px;
+  width: 100%;
+  background-image: url("../assets/payments_floor\ 1.png");
+  max-width: 1366px;
+  height: 40%;
+}
+
+.PaymentsMainBody__belowContent_pillarS {
+  position: absolute;
+  left: 270px;
+  top: 345px;
+  z-index: 7;
+}
+.PaymentsMainBody__belowContent_pillarM_1 {
+  position: absolute;
+  left: 160px;
+  top: 259px;
+  z-index: 7;
+}
+.PaymentsMainBody__belowContent_pillarM_2 {
+  position: absolute;
+  left: 500px;
+  top: 250px;
+  z-index: 5;
+}
+.PaymentsMainBody__belowContent_pillarM_3 {
+  position: absolute;
+  right: 512px;
+  top: 350px;
+  z-index: 7;
+}
+.PaymentsMainBody__belowContent_pillarM_4 {
+  position: absolute;
+  right: 210px;
+  top: 100px;
+  z-index: 2;
+}
+.PaymentsMainBody__belowContent_pillarL {
+  position: absolute;
+  right: 500px;
+  top: 140px;
+  z-index: 5;
+}
+.PaymentsMainBody__belowContent_collumn_1 {
+  position: absolute;
+  top: 134px;
+  right: 256px;
+  z-index: 7;
+}
+.PaymentsMainBody__belowContent_collumn_2 {
+  position: absolute;
+  left: 0px;
+  top: 156px;
+  z-index: 10;
+}
+.PaymentsMainBody__belowContent_collumn_3 {
+  position: absolute;
+  right: 0px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 850px) {
+  .PaymentsMainBody__belowContent_pillarS img {
+    width: 67.5px;
+  }
+  .PaymentsMainBody__belowContent_pillarM_1 img,
+  .PaymentsMainBody__belowContent_pillarM_2 img,
+  .PaymentsMainBody__belowContent_pillarM_3 img,
+  .PaymentsMainBody__belowContent_pillarM_4 img {
+    width: 86px;
+  }
+
+  .PaymentsMainBody__belowContent_pillarL img {
+    width: 105px;
+  }
+  .PaymentsMainBody__belowContent_collumn_1 img,
+  .PaymentsMainBody__belowContent_collumn_3 img {
+    width: 396.5px;
+  }
+  .PaymentsMainBody__belowContent_collumn_2 img {
+    width: 93.5px;
+  }
+
+  .PaymentsMainBody__belowContent_pillarS {
+  }
+  .PaymentsMainBody__belowContent_pillarM_1 {
+  }
+  .PaymentsMainBody__belowContent_pillarM_2 {
+  }
+  .PaymentsMainBody__belowContent_pillarM_3 {
+  }
+  .PaymentsMainBody__belowContent_pillarM_4 {
+  }
+
+  .PaymentsMainBody__belowContent_pillarL {
+  }
+  .PaymentsMainBody__belowContent_collumn_1 {
+  }
+  .PaymentsMainBody__belowContent_collumn_2 {
+    /* top: ; */
+  }
+  .PaymentsMainBody__belowContent_collumn_3 {
+    top: 150px;
+  }
+
+  .paymentsMainBody__content_image img {
+    width: 231px;
+  }
 }

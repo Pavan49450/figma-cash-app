@@ -1,11 +1,149 @@
+@import url(../fonts/fonts.css);
+
 .InvestingMainBody {
   max-width: 1366px;
   height: 725px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.InvestingMainBody__ContentSection {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  position: absolute;
+  /* top: -15%; */
+  top: 3050px;
+  z-index: 2;
+  flex-direction: column;
+  align-items: center;
+}
+
+.InvestingMainBody__ContentSection__title {
+  font-family: CustomFontGH;
+  color: white;
+}
+.InvestingMainBody__ContentSection__investingMethods {
+  display: flex;
+  max-width: 1366px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.InvestingMainBody__ContentSection__stocks {
+  display: flex;
+  /* width: 352px; */
+  width: 100%;
+
+  margin: 2px 20px;
+}
+.InvestingMainBody__ContentSection__bitcoin {
+  display: flex;
+  /* width: 352px; */
+  width: 100%;
+
+  margin: 0px 20px;
+}
+.InvestingMainBody__ContentSection__bitcoin_content,
+.InvestingMainBody__ContentSection__stocks_content {
+  margin: 0px 42px;
+}
+.InvestingMainBody__ContentSection__bitcoin_content h3,
+.InvestingMainBody__ContentSection__stocks_content h3 {
+  font-family: CustomFontTB;
+}
+.InvestingMainBody__ContentSection__bitcoin_content p,
+.InvestingMainBody__ContentSection__stocks_content p {
+  font-family: CustumFontR;
 }
 
 .InvestingMainBody__floor {
   position: relative;
   background: white;
   top: 60%;
+  /* background-image: url("../assets/Group.png");
+  max-width: 1366px;
+  width: 100%;
+  height: 40%; */
+}
+
+.InvestingMainBody__graphs {
+  /* bottom: 42%; */
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.InvestingMainBody__graphs1 {
+  overflow: hidden;
+}
+.InvestingMainBody__graphs1 img {
+  width: 660px;
+  height: 283px;
+}
+.InvestingMainBody__graphs2_1 {
+  width: 237px;
+  height: 411px;
+}
+.InvestingMainBody__graphs2_2 {
+  width: 408px;
+  height: 269px;
+}
+
+.InvestingMainBody__graphs2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1065px) {
+  .InvestingMainBody {
+    overflow: visible;
+  }
+  .InvestingMainBody__graphs {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 531px) {
+  .InvestingMainBody__graphs1 img {
+    width: 330px;
+    height: 141px;
+  }
+  .InvestingMainBody__graphs2_1 {
+    width: 118px;
+    height: 205px;
+  }
+  .InvestingMainBody__graphs2_2 {
+    width: 202px;
+    height: 134px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .InvestingMainBody__ContentSection {
+    top: 3000px;
+  }
+  .InvestingMainBody__ContentSection__stocks img,
+  .InvestingMainBody__ContentSection__bitcoin img {
+    width: 80px;
+    height: 172px;
+    margin: 0px 20px;
+  }
+  .InvestingMainBody__ContentSection__stocks_content,
+  .InvestingMainBody__ContentSection__bitcoin_content {
+    /* width: 80px;
+    height: 172px; */
+    margin: 0px 20px;
+  }
+  .InvestingMainBody__ContentSection__investingMethods {
+    flex-direction: column;
+  }
+  .InvestingMainBody__ContentSection__bitcoin_image {
+  }
 }

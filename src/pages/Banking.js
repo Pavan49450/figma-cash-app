@@ -1,9 +1,9 @@
-import style from "./Cover.module.css";
+import style from "./Page.module.css";
 import BankingMainBody from "../components/BankingMainBody";
 const Banking = () => {
   return (
     <div
-      className={style.paymentsSection}
+      className={style.bankingSection}
       style={{ backgroundColor: "#00D54B" }}
     >
       <BankingMainBody />

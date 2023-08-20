@@ -1,5 +1,5 @@
 import vector from "../assets/Vector.png";
-import style from "./Cover.module.css";
+import style from "./Page.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import MainBody from "../components/MainBody";

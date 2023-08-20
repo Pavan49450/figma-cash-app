@@ -28,6 +28,7 @@
   background-color: black;
   margin-right: 20px;
   /* padding: 25px; */
+  cursor: pointer;
 }
 .Footer__appleIcon img,
 .Footer__googleIcon img {
@@ -68,6 +69,7 @@
 .socialIcons img {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 .Footer__vector {
   /* height: 65px; */

@@ -1,4 +1,4 @@
-import style from "./Cover.module.css";
+import style from "./Page.module.css";
 import PaymentsMainBody from "../components/PaymentsMainBody";
 
 const Payments = () => {
