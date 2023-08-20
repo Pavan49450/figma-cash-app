@@ -41,11 +41,11 @@
 .paymentsMainBody__floor {
   position: absolute;
   z-index: 2;
-  top: 1100px;
+  top: 1135px;
   width: 100%;
   background-image: url("../assets/payments_floor\ 1.png");
   max-width: 1366px;
-  height: 40%;
+  height: 35%;
 }
 
 .PaymentsMainBody__belowContent_pillarS {
@@ -82,7 +82,7 @@
   position: absolute;
   right: 500px;
   top: 140px;
-  z-index: 5;
+  z-index: 4;
 }
 .PaymentsMainBody__belowContent_collumn_1 {
   position: absolute;
@@ -125,28 +125,58 @@
   }
 
   .PaymentsMainBody__belowContent_pillarS {
+    left: 170px;
+    top: 433px;
+    /* z-index: 7; */
   }
   .PaymentsMainBody__belowContent_pillarM_1 {
+    left: 110px;
+    top: 390px;
   }
   .PaymentsMainBody__belowContent_pillarM_2 {
+    left: 136px;
+    top: 266px;
+    z-index: 4;
   }
   .PaymentsMainBody__belowContent_pillarM_3 {
+    right: 265px;
+    top: 440px;
   }
   .PaymentsMainBody__belowContent_pillarM_4 {
+    right: 150px;
+    top: 240px;
+    z-index: 3;
   }
 
   .PaymentsMainBody__belowContent_pillarL {
+    right: 245px;
+    top: 330px;
   }
   .PaymentsMainBody__belowContent_collumn_1 {
+    right: 145px;
+    top: 343px;
   }
   .PaymentsMainBody__belowContent_collumn_2 {
-    /* top: ; */
+    top: 350px;
   }
   .PaymentsMainBody__belowContent_collumn_3 {
-    top: 150px;
+    top: 220px;
   }
 
   .paymentsMainBody__content_image img {
     width: 231px;
   }
+  .paymentsMainBody__content_image {
+    top: 300px;
+    width: 231px;
+  }
+  .paymentsMainBody__content_data {
+    right: 0px;
+    top: 100px;
+  }
+
+  /* .paymentsMainBody__floor {
+    top: 1270px;
+    height: 20%;
+  } */
 }
