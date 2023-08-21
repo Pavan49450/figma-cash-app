@@ -1,5 +1,5 @@
 import style from "./Page.module.css";
-import BankingMainBody from "../components/BankingMainBody";
+import BankingMainBody from "../components/Banking/BankingMainBody";
 const Banking = () => {
   return (
     <div

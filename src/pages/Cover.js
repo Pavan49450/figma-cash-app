@@ -1,9 +1,8 @@
-import vector from "../assets/Vector.png";
 import style from "./Page.module.css";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import MainBody from "../components/MainBody";
-import Backlay from "../components/Backlay";
+import Header from "../components/Cover/Header";
+import Footer from "../components/Cover/Footer";
+import MainBody from "../components/Cover/MainBody";
+import Backlay from "../components/Backlay/Backlay";
 import { useState } from "react";
 const Cover = () => {
   const [showBacklay, setShowBacklay] = useState(false);

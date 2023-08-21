@@ -1,4 +1,4 @@
-@import url(../fonts/fonts.css);
+@import url(../../fonts/fonts.css);
 
 .paymentsMainBody {
   overflow: hidden;
@@ -43,7 +43,7 @@
   z-index: 2;
   top: 1135px;
   width: 100%;
-  background-image: url("../assets/payments_floor\ 1.png");
+  background-image: url("../../assets/payments_floor\ 1.png");
   max-width: 1366px;
   height: 35%;
 }

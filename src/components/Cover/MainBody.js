@@ -1,11 +1,11 @@
 import style from "./MainBody.module.css";
-import introCube from "../assets/intro-cube 1.png";
-import introCubes from "../assets/intro-cubes 1.png";
-import introStairs from "../assets/intro-stairs 1.png";
-import introPhone from "../assets/intro-phone 1.png";
-import introPillar from "../assets/intro-pillar 1.png";
-import vector from "../assets/Vector.svg";
-import "../fonts/fonts.css";
+import introCube from "../../assets/intro-cube 1.png";
+import introCubes from "../../assets/intro-cubes 1.png";
+import introStairs from "../../assets/intro-stairs 1.png";
+import introPhone from "../../assets/intro-phone 1.png";
+import introPillar from "../../assets/intro-pillar 1.png";
+// import vector from "../assets/Vector.svg";
+import "../../fonts/fonts.css";
 
 const MainBody = () => {
   return (

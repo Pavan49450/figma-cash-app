@@ -1,8 +1,8 @@
-import logo from "../assets/logo.svg";
+import logo from "../../assets/logo.svg";
 import style from "./Header.module.css";
-import eyeImage from "../assets/Layer 2.svg";
+import eyeImage from "../../assets/Layer 2.svg";
 import { useState, useEffect } from "react";
-import "../fonts/fonts.css";
+import "../../fonts/fonts.css";
 
 const Header = ({ backlay }) => {
   const [hide, setHide] = useState(false);

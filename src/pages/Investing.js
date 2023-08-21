@@ -1,6 +1,6 @@
 import style from "./Page.module.css";
-import InvestingMainBody from "../components/InvestingMainBody";
-import Footer from "../components/Footer";
+import InvestingMainBody from "../components/Investing/InvestingMainBody";
+import Footer from "../components/Cover/Footer";
 const Investing = () => {
   const footerStyles = {
     storeIconDiv: { backgroundColor: "white", border: "1px solid black" },

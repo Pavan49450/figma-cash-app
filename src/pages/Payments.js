@@ -1,5 +1,5 @@
 import style from "./Page.module.css";
-import PaymentsMainBody from "../components/PaymentsMainBody";
+import PaymentsMainBody from "../components/Payments/PaymentsMainBody";
 
 const Payments = () => {
   return (

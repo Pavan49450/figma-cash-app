@@ -1,13 +1,13 @@
 import style from "./Footer.module.css";
-import appleIcon from "../assets/Apple.svg";
-import googleIcon from "../assets/google.svg";
-import vector from "../assets/Vector.svg";
-import frame from "../assets/Frame.svg";
-import frameB from "../assets/FrameB.png";
-import instaB from "../assets/instaB.png";
-import twitter from "../assets/twitter.svg";
-import twitterB from "../assets/twitterB.png";
-import instaIcon from "../assets/insta.png";
+import appleIcon from "../../assets/Apple.svg";
+import googleIcon from "../../assets/google.svg";
+import vector from "../../assets/Vector.svg";
+import frame from "../../assets/Frame.svg";
+import frameB from "../../assets/FrameB.png";
+import instaB from "../../assets/instaB.png";
+import twitter from "../../assets/twitter.svg";
+import twitterB from "../../assets/twitterB.png";
+import instaIcon from "../../assets/insta.png";
 import { useState, useEffect } from "react";
 
 const Footer = (props) => {

@@ -1,13 +1,12 @@
 import style from "./PaymentsMainBody.module.css";
-import phone from "../assets/payments_phoneM.png";
-import floor from "../assets/payments_floor 1.png";
-import pillarL from "../assets/payments-pillar-large.png";
-import pillarM from "../assets/payments-pillar-medium.png";
-import pillarS from "../assets/payments-pillar-small.png";
-import collumn1 from "../assets/payments-column-1.png";
-import collumn2 from "../assets/payments-column-2.png";
-import collumn3 from "../assets/payments-column-3.png";
-import "../fonts/fonts.css";
+import phone from "../../assets/payments_phoneM.png";
+import pillarL from "../../assets/payments-pillar-large.png";
+import pillarM from "../../assets/payments-pillar-medium.png";
+import pillarS from "../../assets/payments-pillar-small.png";
+import collumn1 from "../../assets/payments-column-1.png";
+import collumn2 from "../../assets/payments-column-2.png";
+import collumn3 from "../../assets/payments-column-3.png";
+import "../../fonts/fonts.css";
 
 const PaymentsMainBody = () => {
   return (

@@ -2,41 +2,41 @@
 
 @font-face {
   font-family: "CustomFontGH";
-  src: url("./Agrandir-GrandHeavy.otf") format("truetype"); /* Replace with the actual font file path */
+  src: url("./AgrandirFonts/Agrandir-GrandHeavy.otf") format("truetype"); /* Replace with the actual font file path */
 
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "CustomFontTB";
-  src: url("./Agrandir-TextBold.otf") format("truetype"); /* Replace with the actual font file path */
+  src: url("./AgrandirFonts/Agrandir-TextBold.otf") format("truetype"); /* Replace with the actual font file path */
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "CustomFontGL";
-  src: url("./Agrandir-GrandLight.otf") format("truetype"); /* Replace with the actual font file path */
+  src: url("./AgrandirFonts/Agrandir-GrandLight.otf") format("truetype"); /* Replace with the actual font file path */
 
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "CustomFontN";
-  src: url("./Agrandir-Narrow.otf") format("truetype"); /* Replace with the actual font file path */
+  src: url("./AgrandirFonts/Agrandir-Narrow.otf") format("truetype"); /* Replace with the actual font file path */
 
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "CustomFontR";
-  src: url("./Agrandir-Regular.otf") format("truetype"); /* Replace with the actual font file path */
+  src: url("./AgrandirFonts/Agrandir-Regular.otf") format("truetype"); /* Replace with the actual font file path */
 
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "CustomFontTI";
-  src: url("./Agrandir-ThinItalic.otf") format("truetype"); /* Replace with the actual font file path */
+  src: url("./AgrandirFonts/Agrandir-ThinItalic.otf") format("truetype"); /* Replace with the actual font file path */
 
   font-weight: normal;
   font-style: italic;
@@ -44,21 +44,21 @@
 
 @font-face {
   font-family: "CustomFontTI";
-  src: url("./Agrandir-Tight.otf") format("truetype"); /* Replace with the actual font file path */
+  src: url("./AgrandirFonts/Agrandir-Tight.otf") format("truetype"); /* Replace with the actual font file path */
 
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: "CustomFontTI";
-  src: url("./Agrandir-WideBlackItalic.otf") format("truetype"); /* Replace with the actual font file path */
+  src: url("./AgrandirFonts/Agrandir-WideBlackItalic.otf") format("truetype"); /* Replace with the actual font file path */
 
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: "CustomFontTI";
-  src: url("./Agrandir-WideLight.otf") format("truetype"); /* Replace with the actual font file path */
+  src: url("./AgrandirFonts/Agrandir-WideLight.otf") format("truetype"); /* Replace with the actual font file path */
 
   font-weight: normal;
   font-style: italic;

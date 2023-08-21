@@ -1,11 +1,11 @@
 import style from "./InvestingMainBody.module.css";
-import floor from "../assets/Group.png";
-import graph1 from "../assets/investing-graph-1.png";
-import graph2 from "../assets/investing-graph-2.png";
-import graph3 from "../assets/investing-graph-3.png";
-import stocks from "../assets/investing-stocks.png";
-import bitcoin from "../assets/investing-bitcoin.png";
-import "../fonts/fonts.css";
+import floor from "../../assets/Group.png";
+import graph1 from "../../assets/investing-graph-1.png";
+import graph2 from "../../assets/investing-graph-2.png";
+import graph3 from "../../assets/investing-graph-3.png";
+import stocks from "../../assets/investing-stocks.png";
+import bitcoin from "../../assets/investing-bitcoin.png";
+import "../../fonts/fonts.css";
 
 const InvestingMainBody = () => {
   return (

@@ -1,17 +1,17 @@
 import style from "./BankingMainBody.module.css";
-import phone from "../assets/banking-phone.png";
-import hole1 from "../assets/banking-hole-1.png";
-import hole2 from "../assets/banking-hole-2.png";
-import ramp1 from "../assets/banking-ramp-1.png";
-import ramp2 from "../assets/banking-ramp-2.png";
-import track1 from "../assets/banking-track-1.png";
-import track2 from "../assets/banking-track-2.png";
-import stairs_1 from "../assets/banking-stairs-1.png";
-import stairs_2 from "../assets/banking-stairs-2.png";
-import monster from "../assets/banking-monster.png";
-import tube from "../assets/banking-tube.png";
-import collumn from "../assets/banking-column.png";
-import "../fonts/fonts.css";
+import phone from "../../assets/banking-phone.png";
+import hole1 from "../../assets/banking-hole-1.png";
+import hole2 from "../../assets/banking-hole-2.png";
+import ramp1 from "../../assets/banking-ramp-1.png";
+import ramp2 from "../../assets/banking-ramp-2.png";
+import track1 from "../../assets/banking-track-1.png";
+import track2 from "../../assets/banking-track-2.png";
+import stairs_1 from "../../assets/banking-stairs-1.png";
+import stairs_2 from "../../assets/banking-stairs-2.png";
+import monster from "../../assets/banking-monster.png";
+import tube from "../../assets/banking-tube.png";
+import collumn from "../../assets/banking-column.png";
+import "../../fonts/fonts.css";
 
 const BankingMainBody = () => {
   return (

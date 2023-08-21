@@ -1,13 +1,13 @@
 import style from "./CashCardMainBody.module.css";
-import phone from "../assets/boost-phone.png";
-import hand from "../assets/boost-hand.png";
-import coffee from "../assets/boost-coffee.png";
-import card from "../assets/boost-card.png";
-import burger from "../assets/boost-burger.png";
-import shoe from "../assets/boost-shoe.png";
-import stairs_1 from "../assets/boost-stairs-1.png";
-import stairs_2 from "../assets/boost-stairs-2.png";
-import "../fonts/fonts.css";
+import phone from "../../assets/boost-phone.png";
+import hand from "../../assets/boost-hand.png";
+import coffee from "../../assets/boost-coffee.png";
+import card from "../../assets/boost-card.png";
+import burger from "../../assets/boost-burger.png";
+import shoe from "../../assets/boost-shoe.png";
+import stairs_1 from "../../assets/boost-stairs-1.png";
+import stairs_2 from "../../assets/boost-stairs-2.png";
+import "../../fonts/fonts.css";
 
 const CashCardMainBody = () => {
   return (
