@@ -11,6 +11,7 @@
   width: 300px;
   left: 14%;
   z-index: 7;
+  background: rgb(0, 213, 75);
 }
 .BankingMainBody__content_data h1 {
   font-family: CustomFontGH;
@@ -150,6 +151,10 @@
   }
 }
 @media screen and (max-width: 700px) {
+  .BankingMainBody__content_data {
+    width: 200px;
+    left: 5%;
+  }
   .BankingMainBody__ramp1 img {
     width: 140px;
   }
@@ -191,5 +196,11 @@
   }
   .BankingMainBody__collumn img {
     width: 97.5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .BankingMainBody__content_image {
+    right: 0%;
   }
 }

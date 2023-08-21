@@ -155,12 +155,14 @@
   .PaymentsMainBody__belowContent_collumn_1 {
     right: 145px;
     top: 343px;
+    z-index: 11;
   }
   .PaymentsMainBody__belowContent_collumn_2 {
     top: 350px;
   }
   .PaymentsMainBody__belowContent_collumn_3 {
     top: 220px;
+    z-index: 4;
   }
 
   .paymentsMainBody__content_image img {
