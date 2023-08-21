@@ -1,11 +1,11 @@
 import "./App.css";
-import Cover from "./pages/Cover";
+import Cover from "./Sections/Cover";
 import "./fonts/fonts.css";
 import GoogleIcons from "./assets/GoogleIcons";
-import Payments from "./pages/Payments";
-import Banking from "./pages/Banking";
-import CashCard from "./pages/CashCard";
-import Investing from "./pages/Investing";
+import Payments from "./Sections/Payments";
+import Banking from "./Sections/Banking";
+import CashCard from "./Sections/CashCard";
+import Investing from "./Sections/Investing";
 
 const App = () => {
   return (
