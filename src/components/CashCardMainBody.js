@@ -25,7 +25,7 @@ const CashCardMainBody = () => {
           <img src={phone} alt="Payments phone mockup"></img>
         </div>
       </div>
-      <div className={style.CashCardMainBody_images}>
+      <div className={style.CashCardMainBody__images}>
         <div className={style.CashCardMainBody__staris_1}>
           <img src={stairs_1} alt="image"></img>
         </div>

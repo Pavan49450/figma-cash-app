@@ -1,114 +1,195 @@
-.MainBody {
+@import url(../fonts/fonts.css);
+
+.BankingMainBody {
+  overflow: hidden;
+  width: 100%;
+}
+
+.BankingMainBody__content_data {
   position: absolute;
-  z-index: 2;
+  top: 300px;
+  width: 300px;
+  left: 14%;
+  z-index: 7;
+}
+.BankingMainBody__content_data h1 {
+  font-family: CustomFontGH;
+  color: white;
+}
+.BankingMainBody__content_data p {
+  font-family: CustomFontR;
+}
+.BankingMainBody__content_image {
+  position: absolute;
+  right: 30%;
+  bottom: 165px;
+  z-index: 3;
+}
+
+.BankingMainBody__images {
+  position: relative;
   max-width: 1366px;
   width: 100%;
   height: 725px;
-}
-
-.MainBody__cube {
-  position: absolute;
-  top: 8%;
-  left: 10%;
-}
-.MainBody__stairs {
-  position: absolute;
-  top: 8%;
-  right: 10%;
-}
-.MainBody__cubes {
-  position: absolute;
-  bottom: 10%;
-  left: 10%;
-}
-.MainBody__pillar {
-  position: absolute;
-  bottom: 0px;
-  right: 10%;
-}
-
-.MainBody__phone {
-  position: absolute;
-  left: 0px;
-  top: 25%;
-  z-index: 4;
-  width: 100%;
   display: flex;
-  justify-content: center;
 }
-.MainBody__titleSection {
-  width: 100%;
+.BankingMainBody__stairs1 {
   position: absolute;
-  /* z-index: 2; */
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  /* top: 30%; */
-  justify-content: center;
-  align-items: center;
+  right: 5%;
+  bottom: 32.5%;
 }
-
-.MainBody__titleSection1,
-.MainBody__titleSection2 {
-  color: white;
-  font-weight: 800;
-  margin: 0px;
-  font-size: 150px;
-  text-align: center;
-  height: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.BankingMainBody__stairs2 {
+  position: absolute;
+  bottom: 9%;
+  left: 5%;
 }
-
-.MainBody__titleSection1 {
-  position: relative;
+.BankingMainBody__ramp1 {
+  position: absolute;
+  right: 19%;
+  top: 200px;
+}
+.BankingMainBody__ramp2 {
+  position: absolute;
+  bottom: 5%;
+  left: 13%;
+}
+.BankingMainBody__track1 {
+  position: absolute;
+  left: 25%;
+  top: 200px;
+}
+.BankingMainBody__track2 {
+  position: absolute;
+  right: 10%;
+  top: 15px;
+}
+.BankingMainBody__tube {
+  position: absolute;
+  bottom: -4px;
+  left: 35%;
   z-index: 3;
 }
-.MainBody__titleSection2 {
-  position: relative;
-  z-index: 5;
-}
-
-.MainBody__vector {
+.BankingMainBody__monster {
   position: absolute;
-  z-index: 4;
   bottom: 10%;
-  left: 50%;
+  right: 5%;
+}
+.BankingMainBody__hole1 {
+  position: absolute;
+  bottom: -4px;
+  right: 17%;
+  z-index: 4;
+}
+.BankingMainBody__hole2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.BankingMainBody__collumn {
+  position: absolute;
+  top: 100px;
+  left: 5%;
 }
 
-.MainBody__title {
-  height: 302px;
-  display: flex;
-  flex-direction: column;
+@media screen and (max-width: 1050px) {
+  .BankingMainBody__content_data {
+    width: 250px;
+  }
+  .BankingMainBody__ramp1 {
+    right: 15%;
+  }
+  .BankingMainBody__content_image {
+    right: 20%;
+  }
+  .BankingMainBody__track1 {
+    top: 115px;
+  }
 }
+@media screen and (max-width: 880px) {
+  .BankingMainBody__ramp1 img {
+    width: 207px;
+  }
+  .BankingMainBody__content_image img {
+    width: 262px;
+  }
+  .BankingMainBody__track1 img {
+    width: 210px;
+  }
 
-@media screen and (max-width: 850px) {
-  .MainBody__titleSection1,
-  .MainBody__titleSection2 {
-    font-size: 75px;
+  .BankingMainBody__stairs1 img {
+    width: 67.5px;
   }
-  .MainBody__phone {
-    top: 37%;
+  .BankingMainBody__stairs2 img {
+    width: 60px;
   }
-  .MainBody__phone img {
-    width: 185px;
-    height: 227px;
+  .BankingMainBody__ramp2 img {
+    width: 207px;
   }
-  .MainBody__title {
-    height: 140px;
+  .BankingMainBody__ramp2 {
+    bottom: 8%;
+    left: 15%;
   }
-  .MainBody__stairs {
-    top: 5%;
-    right: 0%;
+
+  .BankingMainBody__track2 img {
+    width: 225px;
   }
-  .MainBody__pillar {
-    right: 0%;
+  .BankingMainBody__tube img {
+    width: 112.5px;
   }
-  /* .MainBody__cube {
-    left: 0%;
-  } */
-  .MainBody__cubes {
-    left: 5%;
+  .BankingMainBody__monster img {
+    width: 90px;
+  }
+  .BankingMainBody__hole1 img {
+    width: 285px;
+  }
+  .BankingMainBody__hole2 img {
+    width: 240px;
+  }
+  .BankingMainBody__collumn img {
+    width: 97.5px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .BankingMainBody__ramp1 img {
+    width: 140px;
+  }
+  .BankingMainBody__content_image img {
+    width: 175px;
+  }
+  .BankingMainBody__track1 img {
+    width: 135px;
+  }
+
+  .BankingMainBody__stairs1 img {
+    width: 45px;
+  }
+  .BankingMainBody__stairs2 img {
+    width: 40px;
+  }
+  .BankingMainBody__ramp2 img {
+    width: 150px;
+  }
+  .BankingMainBody__ramp2 {
+    bottom: 8%;
+    left: 15%;
+  }
+
+  .BankingMainBody__track2 img {
+    width: 125px;
+  }
+  .BankingMainBody__tube img {
+    width: 75px;
+  }
+  .BankingMainBody__monster img {
+    width: 60px;
+  }
+  .BankingMainBody__hole1 img {
+    width: 190px;
+  }
+  .BankingMainBody__hole2 img {
+    width: 160px;
+  }
+  .BankingMainBody__collumn img {
+    width: 97.5px;
   }
 }

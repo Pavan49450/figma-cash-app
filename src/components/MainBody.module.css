@@ -99,16 +99,20 @@
     height: 140px;
   }
   .MainBody__stairs {
-    top: 5%;
-    right: 0%;
+    /* top: 5%;
+    right: 0%; */
+    width: 100px;
   }
   .MainBody__pillar {
     right: 0%;
+    width: 144px;
   }
-  /* .MainBody__cube {
-    left: 0%;
-  } */
+  .MainBody__cube {
+    width: 50px;
+  }
   .MainBody__cubes {
     left: 5%;
+    width: 94px;
+    bottom: 18%;
   }
 }

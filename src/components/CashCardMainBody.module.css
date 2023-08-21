@@ -7,10 +7,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
-  /* position: relative;
-  z-index: 3; */
 }
 
 .CashCardMainBody__content_image {
@@ -18,14 +16,17 @@
   position: absolute;
   overflow: hidden;
   z-index: 3;
-  top: 90px;
-  right: 40%;
+  top: 135px;
+  right: 545px;
 }
 .CashCardMainBody__content_data {
   width: 300px;
   position: relative;
-  top: 145px;
-  right: 25%;
+  top: 100px;
+  left: 5%;
+  z-index: 5;
+  background-color: black;
+  border-radius: 10px;
 }
 .CashCardMainBody__content_data h1 {
   color: #00d54b;
@@ -36,18 +37,140 @@
   font-size: 14px;
   color: white;
 }
+.CashCardMainBody__images {
+  position: relative;
+  width: 100%;
+  height: 725px;
+  bottom: 236px;
+}
 
 .CashCardMainBody__staris_1 {
+  position: absolute;
+  right: 0px;
+  bottom: -4px;
+}
+.CashCardMainBody__staris_1 {
+  /* width: 900px; */
 }
 .CashCardMainBody__stairs_2 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
 }
 .CashCardMainBody__hand {
+  position: absolute;
+  right: 210px;
+  top: 75px;
 }
 .CashCardMainBody__coffee {
+  position: absolute;
+  right: 310px;
+  bottom: 111px;
 }
 .CashCardMainBody__shoe {
+  position: absolute;
+  right: 20px;
+  bottom: 260px;
 }
 .CashCardMainBody__burger {
+  position: absolute;
+
+  right: 410px;
+  bottom: 260px;
 }
 .CashCardMainBody__card {
+  position: absolute;
+  right: 310px;
+  top: 180px;
+}
+
+@media screen and (max-width: 1200px) {
+  .CashCardMainBody__content_image img {
+    width: 180px;
+  }
+  .CashCardMainBody__content_image {
+    top: 285px;
+    right: 420px;
+  }
+  .CashCardMainBody__staris_1 img {
+    width: 700px;
+  }
+
+  .CashCardMainBody__stairs_2 img {
+    width: 250px;
+  }
+  .CashCardMainBody__hand {
+    right: 135px;
+    top: 200px;
+  }
+  .CashCardMainBody__coffee {
+    right: 225px;
+    bottom: 90px;
+  }
+  .CashCardMainBody__shoe {
+    right: 5px;
+    bottom: 200px;
+  }
+  .CashCardMainBody__burger {
+    right: 300px;
+    bottom: 200px;
+  }
+  .CashCardMainBody__card {
+    right: 223px;
+    top: 278px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .CashCardMainBody__content_image img {
+    width: 100px;
+  }
+  .CashCardMainBody__content_image {
+    top: 483px;
+    right: 182px;
+  }
+  .CashCardMainBody__staris_1 img {
+    width: 300px;
+  }
+
+  .CashCardMainBody__hand {
+    right: 60px;
+    top: 500px;
+  }
+  .CashCardMainBody__coffee {
+    right: 93px;
+    bottom: 36px;
+  }
+  .CashCardMainBody__shoe {
+    right: 0px;
+    bottom: 85px;
+  }
+  .CashCardMainBody__burger {
+    right: 125px;
+    bottom: 85px;
+  }
+  .CashCardMainBody__card {
+    right: 97px;
+    top: 522px;
+  }
+  .CashCardMainBody__hand img {
+    width: 32.5px;
+  }
+  .CashCardMainBody__coffee img {
+    width: 40px;
+  }
+  .CashCardMainBody__shoe img {
+    width: 50px;
+  }
+  .CashCardMainBody__burger img {
+    width: 35px;
+  }
+  .CashCardMainBody__card img {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .CashCardMainBody__stairs_2 img {
+    width: 100px;
+  }
 }
