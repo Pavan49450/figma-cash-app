@@ -28,37 +28,37 @@ const BankingMainBody = () => {
           <img src={phone} alt="banking phone mockup"></img>
         </div>
         <div className={style.BankingMainBody__hole1}>
-          <img src={hole1} alt="hole1 image"></img>
+          <img src={hole1} alt="hole1"></img>
         </div>
         <div className={style.BankingMainBody__hole2}>
-          <img src={hole2} alt="hole2 image"></img>
+          <img src={hole2} alt="hole2"></img>
         </div>
         <div className={style.BankingMainBody__stairs1}>
-          <img src={stairs_1} alt="stairs1 image"></img>
+          <img src={stairs_1} alt="stairs1"></img>
         </div>
         <div className={style.BankingMainBody__stairs2}>
-          <img src={stairs_2} alt="stairs2 image"></img>
+          <img src={stairs_2} alt="stairs2"></img>
         </div>
         <div className={style.BankingMainBody__track1}>
-          <img src={track1} alt="track1 image"></img>
+          <img src={track1} alt="track1"></img>
         </div>
         <div className={style.BankingMainBody__track2}>
-          <img src={track2} alt="track2 image"></img>
+          <img src={track2} alt="track2"></img>
         </div>
         <div className={style.BankingMainBody__tube}>
-          <img src={tube} alt="tube image"></img>
+          <img src={tube} alt="tube"></img>
         </div>
         <div className={style.BankingMainBody__monster}>
-          <img src={monster} alt="monster image"></img>
+          <img src={monster} alt="monster"></img>
         </div>
         <div className={style.BankingMainBody__ramp1}>
-          <img src={ramp1} alt="ramp1 image"></img>
+          <img src={ramp1} alt="ramp1"></img>
         </div>
         <div className={style.BankingMainBody__ramp2}>
-          <img src={ramp2} alt="ramp2 image"></img>
+          <img src={ramp2} alt="ramp2"></img>
         </div>
         <div className={style.BankingMainBody__collumn}>
-          <img src={collumn} alt="collumn image"></img>
+          <img src={collumn} alt="collumn"></img>
         </div>
       </div>
     </div>

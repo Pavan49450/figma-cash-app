@@ -10,21 +10,25 @@
   position: absolute;
   top: 8%;
   left: 10%;
+  animation: gentleMove 2s infinite ease-in;
 }
 .MainBody__stairs {
   position: absolute;
   top: 8%;
   right: 10%;
+  animation: gentleMove 2s infinite ease-in;
 }
 .MainBody__cubes {
   position: absolute;
   bottom: 10%;
   left: 10%;
+  animation: gentleMove 2s infinite ease-in;
 }
 .MainBody__pillar {
   position: absolute;
   bottom: 0px;
   right: 10%;
+  animation: gentleMove 2s infinite ease-in;
 }
 
 .MainBody__phone {
@@ -64,10 +68,12 @@
 .MainBody__titleSection1 {
   position: relative;
   z-index: 3;
+  animation: rightToLeft 1s 1 ease-in;
 }
 .MainBody__titleSection2 {
   position: relative;
   z-index: 5;
+  animation: leftToRight 1s 1 ease-in;
 }
 
 .MainBody__vector {
@@ -114,5 +120,50 @@
     left: 5%;
     width: 94px;
     bottom: 18%;
+  }
+}
+
+.MainBody__phone:hover {
+}
+
+@keyframes leftToRight {
+  0% {
+    opacity: 0;
+    left: 200%;
+  }
+  100% {
+    opacity: 1;
+
+    left: 0%;
+  }
+}
+@keyframes rightToLeft {
+  0% {
+    opacity: 0;
+
+    right: 200%;
+  }
+  100% {
+    opacity: 1;
+
+    right: 0%;
+  }
+}
+
+@keyframes gentleMove {
+  0% {
+    margin-left: 0px;
+  }
+  /* 25% {
+    margin-left: 10px;
+  } */
+  50% {
+    margin-left: 10px;
+  }
+  /* 75% {
+    margin-left: 10px;
+  } */
+  100% {
+    margin-left: 0px;
   }
 }
