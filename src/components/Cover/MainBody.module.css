@@ -10,25 +10,21 @@
   position: absolute;
   top: 8%;
   left: 10%;
-  animation: gentleMove 2s infinite ease-in;
 }
 .MainBody__stairs {
   position: absolute;
   top: 8%;
   right: 10%;
-  animation: gentleMove 2s infinite ease-in;
 }
 .MainBody__cubes {
   position: absolute;
   bottom: 10%;
   left: 10%;
-  animation: gentleMove 2s infinite ease-in;
 }
 .MainBody__pillar {
   position: absolute;
   bottom: 0px;
   right: 10%;
-  animation: gentleMove 2s infinite ease-in;
 }
 
 .MainBody__phone {
@@ -123,8 +119,8 @@
   }
 }
 
-.MainBody__phone:hover {
-}
+/* .MainBody__phone:hover {
+} */
 
 @keyframes leftToRight {
   0% {
@@ -149,21 +145,17 @@
     right: 0%;
   }
 }
-
+/* 
 @keyframes gentleMove {
   0% {
     margin-left: 0px;
   }
-  /* 25% {
-    margin-left: 10px;
-  } */
+
   50% {
     margin-left: 10px;
   }
-  /* 75% {
-    margin-left: 10px;
-  } */
+
   100% {
     margin-left: 0px;
   }
-}
+} */
