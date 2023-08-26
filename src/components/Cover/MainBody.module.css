@@ -4,6 +4,7 @@
   max-width: 1366px;
   width: 100%;
   height: 725px;
+  overflow: hidden;
 }
 
 .MainBody__cube {
